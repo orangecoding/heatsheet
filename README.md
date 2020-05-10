@@ -6,7 +6,7 @@ An overview for your Tado data.  [![Build Status](https://travis-ci.org/orangeco
 
 However as good as the hardware is, the software (still) lacks the ability to export data and show them on a yearly basis (or showing bigger timewindows than just a single day). 
   
-HeatSheet is changing this. It uses (unofficial) Tado API's, to get the data out of your account and show them either as a graph or table-view. Depending on the chosen granularity, you can analyse your heating behaviour much better, therefor safe money and maybe.. just maybe save the planet by adapting your heating behaviours. 
+HeatSheet is changing this. It uses (unofficial) Tado API's, to get the data out of your account and show them either as a graph or table-view. Depending on the chosen granularity, you can analyse your heating behaviour much better, therefor safe money and maybe.. just maybe save the :earth_africa: by adapting your heating behaviours. 
   
 ![Charts](/docs/chart_1.png "Charts")  
   
