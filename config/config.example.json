@@ -1,0 +1,13 @@
+{
+  "tado": {
+    "tadoUser": "*your tado usernane*",
+    "tadoPassword": "*your tado password*"
+  },
+  "ui": {
+    "user": "admin",
+    "password": "admin",
+    "apiPort": "9999",
+    "loginNeeded": true
+  },
+  "dataRecording": true
+}

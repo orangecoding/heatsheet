@@ -1,0 +1,1162 @@
+{
+  "zoneType": "HEATING",
+  "interval": {
+    "from": "2020-05-03T21:45:00.000Z",
+    "to": "2020-05-04T22:15:00.000Z"
+  },
+  "hoursInDay": 24,
+  "measuredData": {
+    "measuringDeviceConnected": {
+      "timeSeriesType": "dataIntervals",
+      "valueType": "boolean",
+      "dataIntervals": [
+        {
+          "from": "2020-05-03T21:45:00.000Z",
+          "to": "2020-05-04T22:15:00.000Z",
+          "value": true
+        }
+      ]
+    },
+    "insideTemperature": {
+      "timeSeriesType": "dataPoints",
+      "valueType": "temperature",
+      "min": {
+        "celsius": 20.74,
+        "fahrenheit": 69.33
+      },
+      "max": {
+        "celsius": 22.46,
+        "fahrenheit": 72.43
+      },
+      "dataPoints": [
+        {
+          "timestamp": "2020-05-03T21:45:00.000Z",
+          "value": {
+            "celsius": 21.43,
+            "fahrenheit": 70.57
+          }
+        },
+        {
+          "timestamp": "2020-05-03T22:00:00.000Z",
+          "value": {
+            "celsius": 21.43,
+            "fahrenheit": 70.57
+          }
+        },
+        {
+          "timestamp": "2020-05-03T22:15:00.000Z",
+          "value": {
+            "celsius": 21.4,
+            "fahrenheit": 70.52
+          }
+        },
+        {
+          "timestamp": "2020-05-03T22:30:00.000Z",
+          "value": {
+            "celsius": 21.39,
+            "fahrenheit": 70.5
+          }
+        },
+        {
+          "timestamp": "2020-05-03T22:45:00.000Z",
+          "value": {
+            "celsius": 21.32,
+            "fahrenheit": 70.38
+          }
+        },
+        {
+          "timestamp": "2020-05-03T23:00:00.000Z",
+          "value": {
+            "celsius": 21.3,
+            "fahrenheit": 70.34
+          }
+        },
+        {
+          "timestamp": "2020-05-03T23:15:00.000Z",
+          "value": {
+            "celsius": 21.29,
+            "fahrenheit": 70.32
+          }
+        },
+        {
+          "timestamp": "2020-05-03T23:30:00.000Z",
+          "value": {
+            "celsius": 21.26,
+            "fahrenheit": 70.27
+          }
+        },
+        {
+          "timestamp": "2020-05-03T23:45:00.000Z",
+          "value": {
+            "celsius": 21.26,
+            "fahrenheit": 70.27
+          }
+        },
+        {
+          "timestamp": "2020-05-04T00:00:00.000Z",
+          "value": {
+            "celsius": 21.2,
+            "fahrenheit": 70.16
+          }
+        },
+        {
+          "timestamp": "2020-05-04T00:15:00.000Z",
+          "value": {
+            "celsius": 21.19,
+            "fahrenheit": 70.14
+          }
+        },
+        {
+          "timestamp": "2020-05-04T00:30:00.000Z",
+          "value": {
+            "celsius": 21.16,
+            "fahrenheit": 70.09
+          }
+        },
+        {
+          "timestamp": "2020-05-04T00:45:00.000Z",
+          "value": {
+            "celsius": 21.15,
+            "fahrenheit": 70.07
+          }
+        },
+        {
+          "timestamp": "2020-05-04T01:00:00.000Z",
+          "value": {
+            "celsius": 21.08,
+            "fahrenheit": 69.94
+          }
+        },
+        {
+          "timestamp": "2020-05-04T01:15:00.000Z",
+          "value": {
+            "celsius": 21.06,
+            "fahrenheit": 69.91
+          }
+        },
+        {
+          "timestamp": "2020-05-04T01:30:00.000Z",
+          "value": {
+            "celsius": 21.06,
+            "fahrenheit": 69.91
+          }
+        },
+        {
+          "timestamp": "2020-05-04T01:45:00.000Z",
+          "value": {
+            "celsius": 21.06,
+            "fahrenheit": 69.91
+          }
+        },
+        {
+          "timestamp": "2020-05-04T02:00:00.000Z",
+          "value": {
+            "celsius": 21.02,
+            "fahrenheit": 69.84
+          }
+        },
+        {
+          "timestamp": "2020-05-04T02:15:00.000Z",
+          "value": {
+            "celsius": 20.99,
+            "fahrenheit": 69.78
+          }
+        },
+        {
+          "timestamp": "2020-05-04T02:30:00.000Z",
+          "value": {
+            "celsius": 20.96,
+            "fahrenheit": 69.73
+          }
+        },
+        {
+          "timestamp": "2020-05-04T02:45:00.000Z",
+          "value": {
+            "celsius": 20.96,
+            "fahrenheit": 69.73
+          }
+        },
+        {
+          "timestamp": "2020-05-04T03:00:00.000Z",
+          "value": {
+            "celsius": 20.89,
+            "fahrenheit": 69.6
+          }
+        },
+        {
+          "timestamp": "2020-05-04T03:15:00.000Z",
+          "value": {
+            "celsius": 20.88,
+            "fahrenheit": 69.58
+          }
+        },
+        {
+          "timestamp": "2020-05-04T03:30:00.000Z",
+          "value": {
+            "celsius": 20.88,
+            "fahrenheit": 69.58
+          }
+        },
+        {
+          "timestamp": "2020-05-04T03:45:00.000Z",
+          "value": {
+            "celsius": 20.85,
+            "fahrenheit": 69.53
+          }
+        },
+        {
+          "timestamp": "2020-05-04T04:00:00.000Z",
+          "value": {
+            "celsius": 20.82,
+            "fahrenheit": 69.48
+          }
+        },
+        {
+          "timestamp": "2020-05-04T04:15:00.000Z",
+          "value": {
+            "celsius": 20.78,
+            "fahrenheit": 69.4
+          }
+        },
+        {
+          "timestamp": "2020-05-04T04:30:00.000Z",
+          "value": {
+            "celsius": 20.78,
+            "fahrenheit": 69.4
+          }
+        },
+        {
+          "timestamp": "2020-05-04T04:45:00.000Z",
+          "value": {
+            "celsius": 20.75,
+            "fahrenheit": 69.35
+          }
+        },
+        {
+          "timestamp": "2020-05-04T05:00:00.000Z",
+          "value": {
+            "celsius": 20.74,
+            "fahrenheit": 69.33
+          }
+        },
+        {
+          "timestamp": "2020-05-04T05:15:00.000Z",
+          "value": {
+            "celsius": 20.74,
+            "fahrenheit": 69.33
+          }
+        },
+        {
+          "timestamp": "2020-05-04T05:30:00.000Z",
+          "value": {
+            "celsius": 20.77,
+            "fahrenheit": 69.39
+          }
+        },
+        {
+          "timestamp": "2020-05-04T05:45:00.000Z",
+          "value": {
+            "celsius": 20.77,
+            "fahrenheit": 69.39
+          }
+        },
+        {
+          "timestamp": "2020-05-04T06:00:00.000Z",
+          "value": {
+            "celsius": 20.78,
+            "fahrenheit": 69.4
+          }
+        },
+        {
+          "timestamp": "2020-05-04T06:15:00.000Z",
+          "value": {
+            "celsius": 20.82,
+            "fahrenheit": 69.48
+          }
+        },
+        {
+          "timestamp": "2020-05-04T06:30:00.000Z",
+          "value": {
+            "celsius": 20.79,
+            "fahrenheit": 69.42
+          }
+        },
+        {
+          "timestamp": "2020-05-04T06:45:00.000Z",
+          "value": {
+            "celsius": 20.82,
+            "fahrenheit": 69.48
+          }
+        },
+        {
+          "timestamp": "2020-05-04T07:00:00.000Z",
+          "value": {
+            "celsius": 20.85,
+            "fahrenheit": 69.53
+          }
+        },
+        {
+          "timestamp": "2020-05-04T07:15:00.000Z",
+          "value": {
+            "celsius": 20.91,
+            "fahrenheit": 69.64
+          }
+        },
+        {
+          "timestamp": "2020-05-04T07:30:00.000Z",
+          "value": {
+            "celsius": 20.91,
+            "fahrenheit": 69.64
+          }
+        },
+        {
+          "timestamp": "2020-05-04T07:45:00.000Z",
+          "value": {
+            "celsius": 20.91,
+            "fahrenheit": 69.64
+          }
+        },
+        {
+          "timestamp": "2020-05-04T08:00:00.000Z",
+          "value": {
+            "celsius": 20.96,
+            "fahrenheit": 69.73
+          }
+        },
+        {
+          "timestamp": "2020-05-04T08:15:00.000Z",
+          "value": {
+            "celsius": 21.03,
+            "fahrenheit": 69.85
+          }
+        },
+        {
+          "timestamp": "2020-05-04T08:30:00.000Z",
+          "value": {
+            "celsius": 21,
+            "fahrenheit": 69.8
+          }
+        },
+        {
+          "timestamp": "2020-05-04T08:45:00.000Z",
+          "value": {
+            "celsius": 20.99,
+            "fahrenheit": 69.78
+          }
+        },
+        {
+          "timestamp": "2020-05-04T09:00:00.000Z",
+          "value": {
+            "celsius": 21,
+            "fahrenheit": 69.8
+          }
+        },
+        {
+          "timestamp": "2020-05-04T09:15:00.000Z",
+          "value": {
+            "celsius": 21,
+            "fahrenheit": 69.8
+          }
+        },
+        {
+          "timestamp": "2020-05-04T09:30:00.000Z",
+          "value": {
+            "celsius": 21,
+            "fahrenheit": 69.8
+          }
+        },
+        {
+          "timestamp": "2020-05-04T09:45:00.000Z",
+          "value": {
+            "celsius": 21,
+            "fahrenheit": 69.8
+          }
+        },
+        {
+          "timestamp": "2020-05-04T10:00:00.000Z",
+          "value": {
+            "celsius": 21.03,
+            "fahrenheit": 69.85
+          }
+        },
+        {
+          "timestamp": "2020-05-04T10:15:00.000Z",
+          "value": {
+            "celsius": 21.18,
+            "fahrenheit": 70.12
+          }
+        },
+        {
+          "timestamp": "2020-05-04T10:30:00.000Z",
+          "value": {
+            "celsius": 21.39,
+            "fahrenheit": 70.5
+          }
+        },
+        {
+          "timestamp": "2020-05-04T10:45:00.000Z",
+          "value": {
+            "celsius": 21.6,
+            "fahrenheit": 70.88
+          }
+        },
+        {
+          "timestamp": "2020-05-04T11:00:00.000Z",
+          "value": {
+            "celsius": 21.65,
+            "fahrenheit": 70.97
+          }
+        },
+        {
+          "timestamp": "2020-05-04T11:15:00.000Z",
+          "value": {
+            "celsius": 21.74,
+            "fahrenheit": 71.13
+          }
+        },
+        {
+          "timestamp": "2020-05-04T11:30:00.000Z",
+          "value": {
+            "celsius": 21.89,
+            "fahrenheit": 71.4
+          }
+        },
+        {
+          "timestamp": "2020-05-04T11:45:00.000Z",
+          "value": {
+            "celsius": 22,
+            "fahrenheit": 71.6
+          }
+        },
+        {
+          "timestamp": "2020-05-04T12:00:00.000Z",
+          "value": {
+            "celsius": 22.15,
+            "fahrenheit": 71.87
+          }
+        },
+        {
+          "timestamp": "2020-05-04T12:15:00.000Z",
+          "value": {
+            "celsius": 22.3,
+            "fahrenheit": 72.14
+          }
+        },
+        {
+          "timestamp": "2020-05-04T12:30:00.000Z",
+          "value": {
+            "celsius": 22.39,
+            "fahrenheit": 72.3
+          }
+        },
+        {
+          "timestamp": "2020-05-04T12:45:00.000Z",
+          "value": {
+            "celsius": 22.36,
+            "fahrenheit": 72.25
+          }
+        },
+        {
+          "timestamp": "2020-05-04T13:00:00.000Z",
+          "value": {
+            "celsius": 22.46,
+            "fahrenheit": 72.43
+          }
+        },
+        {
+          "timestamp": "2020-05-04T13:15:00.000Z",
+          "value": {
+            "celsius": 22.4,
+            "fahrenheit": 72.32
+          }
+        },
+        {
+          "timestamp": "2020-05-04T13:30:00.000Z",
+          "value": {
+            "celsius": 22.35,
+            "fahrenheit": 72.23
+          }
+        },
+        {
+          "timestamp": "2020-05-04T13:45:00.000Z",
+          "value": {
+            "celsius": 22.31,
+            "fahrenheit": 72.16
+          }
+        },
+        {
+          "timestamp": "2020-05-04T14:00:00.000Z",
+          "value": {
+            "celsius": 22.22,
+            "fahrenheit": 72
+          }
+        },
+        {
+          "timestamp": "2020-05-04T14:15:00.000Z",
+          "value": {
+            "celsius": 22.15,
+            "fahrenheit": 71.87
+          }
+        },
+        {
+          "timestamp": "2020-05-04T14:30:00.000Z",
+          "value": {
+            "celsius": 22.15,
+            "fahrenheit": 71.87
+          }
+        },
+        {
+          "timestamp": "2020-05-04T14:45:00.000Z",
+          "value": {
+            "celsius": 22.15,
+            "fahrenheit": 71.87
+          }
+        },
+        {
+          "timestamp": "2020-05-04T15:00:00.000Z",
+          "value": {
+            "celsius": 22.02,
+            "fahrenheit": 71.64
+          }
+        },
+        {
+          "timestamp": "2020-05-04T15:15:00.000Z",
+          "value": {
+            "celsius": 21.9,
+            "fahrenheit": 71.42
+          }
+        },
+        {
+          "timestamp": "2020-05-04T15:30:00.000Z",
+          "value": {
+            "celsius": 21.28,
+            "fahrenheit": 70.3
+          }
+        },
+        {
+          "timestamp": "2020-05-04T15:45:00.000Z",
+          "value": {
+            "celsius": 20.93,
+            "fahrenheit": 69.67
+          }
+        },
+        {
+          "timestamp": "2020-05-04T16:00:00.000Z",
+          "value": {
+            "celsius": 21.26,
+            "fahrenheit": 70.27
+          }
+        },
+        {
+          "timestamp": "2020-05-04T16:15:00.000Z",
+          "value": {
+            "celsius": 21.47,
+            "fahrenheit": 70.65
+          }
+        },
+        {
+          "timestamp": "2020-05-04T16:30:00.000Z",
+          "value": {
+            "celsius": 21.51,
+            "fahrenheit": 70.72
+          }
+        },
+        {
+          "timestamp": "2020-05-04T16:45:00.000Z",
+          "value": {
+            "celsius": 21.59,
+            "fahrenheit": 70.86
+          }
+        },
+        {
+          "timestamp": "2020-05-04T17:00:00.000Z",
+          "value": {
+            "celsius": 21.57,
+            "fahrenheit": 70.83
+          }
+        },
+        {
+          "timestamp": "2020-05-04T17:15:00.000Z",
+          "value": {
+            "celsius": 21.57,
+            "fahrenheit": 70.83
+          }
+        },
+        {
+          "timestamp": "2020-05-04T17:30:00.000Z",
+          "value": {
+            "celsius": 21.57,
+            "fahrenheit": 70.83
+          }
+        },
+        {
+          "timestamp": "2020-05-04T17:45:00.000Z",
+          "value": {
+            "celsius": 21.61,
+            "fahrenheit": 70.9
+          }
+        },
+        {
+          "timestamp": "2020-05-04T18:00:00.000Z",
+          "value": {
+            "celsius": 21.6,
+            "fahrenheit": 70.88
+          }
+        },
+        {
+          "timestamp": "2020-05-04T18:15:00.000Z",
+          "value": {
+            "celsius": 21.6,
+            "fahrenheit": 70.88
+          }
+        },
+        {
+          "timestamp": "2020-05-04T18:30:00.000Z",
+          "value": {
+            "celsius": 21.56,
+            "fahrenheit": 70.81
+          }
+        },
+        {
+          "timestamp": "2020-05-04T18:45:00.000Z",
+          "value": {
+            "celsius": 21.53,
+            "fahrenheit": 70.75
+          }
+        },
+        {
+          "timestamp": "2020-05-04T19:00:00.000Z",
+          "value": {
+            "celsius": 21.53,
+            "fahrenheit": 70.75
+          }
+        },
+        {
+          "timestamp": "2020-05-04T19:15:00.000Z",
+          "value": {
+            "celsius": 21.51,
+            "fahrenheit": 70.72
+          }
+        },
+        {
+          "timestamp": "2020-05-04T19:30:00.000Z",
+          "value": {
+            "celsius": 21.47,
+            "fahrenheit": 70.65
+          }
+        },
+        {
+          "timestamp": "2020-05-04T19:45:00.000Z",
+          "value": {
+            "celsius": 21.42,
+            "fahrenheit": 70.56
+          }
+        },
+        {
+          "timestamp": "2020-05-04T20:00:00.000Z",
+          "value": {
+            "celsius": 21.36,
+            "fahrenheit": 70.45
+          }
+        },
+        {
+          "timestamp": "2020-05-04T20:15:00.000Z",
+          "value": {
+            "celsius": 21.32,
+            "fahrenheit": 70.38
+          }
+        },
+        {
+          "timestamp": "2020-05-04T20:30:00.000Z",
+          "value": {
+            "celsius": 21.32,
+            "fahrenheit": 70.38
+          }
+        },
+        {
+          "timestamp": "2020-05-04T20:45:00.000Z",
+          "value": {
+            "celsius": 21.22,
+            "fahrenheit": 70.2
+          }
+        },
+        {
+          "timestamp": "2020-05-04T21:00:00.000Z",
+          "value": {
+            "celsius": 21.13,
+            "fahrenheit": 70.03
+          }
+        },
+        {
+          "timestamp": "2020-05-04T21:15:00.000Z",
+          "value": {
+            "celsius": 21.1,
+            "fahrenheit": 69.98
+          }
+        },
+        {
+          "timestamp": "2020-05-04T21:30:00.000Z",
+          "value": {
+            "celsius": 21,
+            "fahrenheit": 69.8
+          }
+        },
+        {
+          "timestamp": "2020-05-04T21:45:00.000Z",
+          "value": {
+            "celsius": 21,
+            "fahrenheit": 69.8
+          }
+        },
+        {
+          "timestamp": "2020-05-04T22:00:00.000Z",
+          "value": {
+            "celsius": 20.95,
+            "fahrenheit": 69.71
+          }
+        },
+        {
+          "timestamp": "2020-05-04T22:15:00.000Z",
+          "value": {
+            "celsius": 20.88,
+            "fahrenheit": 69.58
+          }
+        }
+      ]
+    },
+    "humidity": {
+      "timeSeriesType": "dataPoints",
+      "valueType": "percentage",
+      "percentageUnit": "UNIT_INTERVAL",
+      "min": 0.373,
+      "max": 0.44,
+      "dataPoints": [
+        {
+          "timestamp": "2020-05-03T21:45:00.000Z",
+          "value": 0.401
+        },
+        {
+          "timestamp": "2020-05-03T22:00:00.000Z",
+          "value": 0.401
+        },
+        {
+          "timestamp": "2020-05-03T22:15:00.000Z",
+          "value": 0.401
+        },
+        {
+          "timestamp": "2020-05-03T22:30:00.000Z",
+          "value": 0.401
+        },
+        {
+          "timestamp": "2020-05-03T22:45:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-03T23:00:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-03T23:15:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-03T23:30:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-03T23:45:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-04T00:00:00.000Z",
+          "value": 0.404
+        },
+        {
+          "timestamp": "2020-05-04T00:15:00.000Z",
+          "value": 0.404
+        },
+        {
+          "timestamp": "2020-05-04T00:30:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-04T00:45:00.000Z",
+          "value": 0.404
+        },
+        {
+          "timestamp": "2020-05-04T01:00:00.000Z",
+          "value": 0.405
+        },
+        {
+          "timestamp": "2020-05-04T01:15:00.000Z",
+          "value": 0.405
+        },
+        {
+          "timestamp": "2020-05-04T01:30:00.000Z",
+          "value": 0.405
+        },
+        {
+          "timestamp": "2020-05-04T01:45:00.000Z",
+          "value": 0.406
+        },
+        {
+          "timestamp": "2020-05-04T02:00:00.000Z",
+          "value": 0.405
+        },
+        {
+          "timestamp": "2020-05-04T02:15:00.000Z",
+          "value": 0.406
+        },
+        {
+          "timestamp": "2020-05-04T02:30:00.000Z",
+          "value": 0.407
+        },
+        {
+          "timestamp": "2020-05-04T02:45:00.000Z",
+          "value": 0.407
+        },
+        {
+          "timestamp": "2020-05-04T03:00:00.000Z",
+          "value": 0.407
+        },
+        {
+          "timestamp": "2020-05-04T03:15:00.000Z",
+          "value": 0.408
+        },
+        {
+          "timestamp": "2020-05-04T03:30:00.000Z",
+          "value": 0.407
+        },
+        {
+          "timestamp": "2020-05-04T03:45:00.000Z",
+          "value": 0.408
+        },
+        {
+          "timestamp": "2020-05-04T04:00:00.000Z",
+          "value": 0.408
+        },
+        {
+          "timestamp": "2020-05-04T04:15:00.000Z",
+          "value": 0.409
+        },
+        {
+          "timestamp": "2020-05-04T04:30:00.000Z",
+          "value": 0.409
+        },
+        {
+          "timestamp": "2020-05-04T04:45:00.000Z",
+          "value": 0.41
+        },
+        {
+          "timestamp": "2020-05-04T05:00:00.000Z",
+          "value": 0.409
+        },
+        {
+          "timestamp": "2020-05-04T05:15:00.000Z",
+          "value": 0.409
+        },
+        {
+          "timestamp": "2020-05-04T05:30:00.000Z",
+          "value": 0.41
+        },
+        {
+          "timestamp": "2020-05-04T05:45:00.000Z",
+          "value": 0.41
+        },
+        {
+          "timestamp": "2020-05-04T06:00:00.000Z",
+          "value": 0.411
+        },
+        {
+          "timestamp": "2020-05-04T06:15:00.000Z",
+          "value": 0.414
+        },
+        {
+          "timestamp": "2020-05-04T06:30:00.000Z",
+          "value": 0.419
+        },
+        {
+          "timestamp": "2020-05-04T06:45:00.000Z",
+          "value": 0.421
+        },
+        {
+          "timestamp": "2020-05-04T07:00:00.000Z",
+          "value": 0.42
+        },
+        {
+          "timestamp": "2020-05-04T07:15:00.000Z",
+          "value": 0.421
+        },
+        {
+          "timestamp": "2020-05-04T07:30:00.000Z",
+          "value": 0.422
+        },
+        {
+          "timestamp": "2020-05-04T07:45:00.000Z",
+          "value": 0.422
+        },
+        {
+          "timestamp": "2020-05-04T08:00:00.000Z",
+          "value": 0.436
+        },
+        {
+          "timestamp": "2020-05-04T08:15:00.000Z",
+          "value": 0.44
+        },
+        {
+          "timestamp": "2020-05-04T08:30:00.000Z",
+          "value": 0.438
+        },
+        {
+          "timestamp": "2020-05-04T08:45:00.000Z",
+          "value": 0.438
+        },
+        {
+          "timestamp": "2020-05-04T09:00:00.000Z",
+          "value": 0.436
+        },
+        {
+          "timestamp": "2020-05-04T09:15:00.000Z",
+          "value": 0.436
+        },
+        {
+          "timestamp": "2020-05-04T09:30:00.000Z",
+          "value": 0.435
+        },
+        {
+          "timestamp": "2020-05-04T09:45:00.000Z",
+          "value": 0.434
+        },
+        {
+          "timestamp": "2020-05-04T10:00:00.000Z",
+          "value": 0.433
+        },
+        {
+          "timestamp": "2020-05-04T10:15:00.000Z",
+          "value": 0.431
+        },
+        {
+          "timestamp": "2020-05-04T10:30:00.000Z",
+          "value": 0.428
+        },
+        {
+          "timestamp": "2020-05-04T10:45:00.000Z",
+          "value": 0.424
+        },
+        {
+          "timestamp": "2020-05-04T11:00:00.000Z",
+          "value": 0.423
+        },
+        {
+          "timestamp": "2020-05-04T11:15:00.000Z",
+          "value": 0.422
+        },
+        {
+          "timestamp": "2020-05-04T11:30:00.000Z",
+          "value": 0.42
+        },
+        {
+          "timestamp": "2020-05-04T11:45:00.000Z",
+          "value": 0.418
+        },
+        {
+          "timestamp": "2020-05-04T12:00:00.000Z",
+          "value": 0.415
+        },
+        {
+          "timestamp": "2020-05-04T12:15:00.000Z",
+          "value": 0.413
+        },
+        {
+          "timestamp": "2020-05-04T12:30:00.000Z",
+          "value": 0.412
+        },
+        {
+          "timestamp": "2020-05-04T12:45:00.000Z",
+          "value": 0.412
+        },
+        {
+          "timestamp": "2020-05-04T13:00:00.000Z",
+          "value": 0.411
+        },
+        {
+          "timestamp": "2020-05-04T13:15:00.000Z",
+          "value": 0.412
+        },
+        {
+          "timestamp": "2020-05-04T13:30:00.000Z",
+          "value": 0.411
+        },
+        {
+          "timestamp": "2020-05-04T13:45:00.000Z",
+          "value": 0.411
+        },
+        {
+          "timestamp": "2020-05-04T14:00:00.000Z",
+          "value": 0.411
+        },
+        {
+          "timestamp": "2020-05-04T14:15:00.000Z",
+          "value": 0.411
+        },
+        {
+          "timestamp": "2020-05-04T14:30:00.000Z",
+          "value": 0.411
+        },
+        {
+          "timestamp": "2020-05-04T14:45:00.000Z",
+          "value": 0.41
+        },
+        {
+          "timestamp": "2020-05-04T15:00:00.000Z",
+          "value": 0.406
+        },
+        {
+          "timestamp": "2020-05-04T15:15:00.000Z",
+          "value": 0.39
+        },
+        {
+          "timestamp": "2020-05-04T15:30:00.000Z",
+          "value": 0.373
+        },
+        {
+          "timestamp": "2020-05-04T15:45:00.000Z",
+          "value": 0.373
+        },
+        {
+          "timestamp": "2020-05-04T16:00:00.000Z",
+          "value": 0.375
+        },
+        {
+          "timestamp": "2020-05-04T16:15:00.000Z",
+          "value": 0.377
+        },
+        {
+          "timestamp": "2020-05-04T16:30:00.000Z",
+          "value": 0.38
+        },
+        {
+          "timestamp": "2020-05-04T16:45:00.000Z",
+          "value": 0.383
+        },
+        {
+          "timestamp": "2020-05-04T17:00:00.000Z",
+          "value": 0.39
+        },
+        {
+          "timestamp": "2020-05-04T17:15:00.000Z",
+          "value": 0.39
+        },
+        {
+          "timestamp": "2020-05-04T17:30:00.000Z",
+          "value": 0.411
+        },
+        {
+          "timestamp": "2020-05-04T17:45:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-04T18:00:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-04T18:15:00.000Z",
+          "value": 0.406
+        },
+        {
+          "timestamp": "2020-05-04T18:30:00.000Z",
+          "value": 0.404
+        },
+        {
+          "timestamp": "2020-05-04T18:45:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-04T19:00:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-04T19:15:00.000Z",
+          "value": 0.405
+        },
+        {
+          "timestamp": "2020-05-04T19:30:00.000Z",
+          "value": 0.406
+        },
+        {
+          "timestamp": "2020-05-04T19:45:00.000Z",
+          "value": 0.405
+        },
+        {
+          "timestamp": "2020-05-04T20:00:00.000Z",
+          "value": 0.405
+        },
+        {
+          "timestamp": "2020-05-04T20:15:00.000Z",
+          "value": 0.404
+        },
+        {
+          "timestamp": "2020-05-04T20:30:00.000Z",
+          "value": 0.404
+        },
+        {
+          "timestamp": "2020-05-04T20:45:00.000Z",
+          "value": 0.403
+        },
+        {
+          "timestamp": "2020-05-04T21:00:00.000Z",
+          "value": 0.402
+        },
+        {
+          "timestamp": "2020-05-04T21:15:00.000Z",
+          "value": 0.4
+        },
+        {
+          "timestamp": "2020-05-04T21:30:00.000Z",
+          "value": 0.399
+        },
+        {
+          "timestamp": "2020-05-04T21:45:00.000Z",
+          "value": 0.399
+        },
+        {
+          "timestamp": "2020-05-04T22:00:00.000Z",
+          "value": 0.397
+        },
+        {
+          "timestamp": "2020-05-04T22:15:00.000Z",
+          "value": 0.396
+        }
+      ]
+    }
+  },
+  "stripes": {
+    "timeSeriesType": "dataIntervals",
+    "valueType": "stripes",
+    "dataIntervals": [
+      {
+        "from": "2020-05-03T21:45:00.000Z",
+        "to": "2020-05-04T22:15:00.000Z",
+        "value": {
+          "stripeType": "HOME",
+          "setting": {
+            "type": "HEATING",
+            "power": "OFF",
+            "temperature": null
+          }
+        }
+      }
+    ]
+  },
+  "callForHeat": {
+    "timeSeriesType": "dataIntervals",
+    "valueType": "callForHeat",
+    "dataIntervals": [
+      {
+        "from": "2020-05-03T21:45:00.000Z",
+        "to": "2020-05-04T22:15:00.000Z",
+        "value": "NONE"
+      }
+    ]
+  }
+}

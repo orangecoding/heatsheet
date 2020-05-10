@@ -1,0 +1,33 @@
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Table Report</h1>
+        <div class="input-group daterange">
+            <select name="years" id="years" size="1" class="form-control">
+            </select>
+        </div>
+    </div>
+
+    <p>
+        <button type="button" class="btn btn-outline-dark btn-sm" id="help">
+            What do I see here?
+        </button>
+    </p>
+    <div class="collapse mb-3" id="explanation">
+        <div class="card card-body">
+            <p><b>What do I see here?</b></p>
+            <p>This is a monthly overview for the given year, showing hours and minutes in which your Tado thermostat has turned on heating either in low, medium or high mode.</p>
+            <p>The Tado API does not provide a more precise value, so this is the closest we can get. This overview should help you understanding the heating behaviour throughout the year.</p>
+            <p><span class="circle circle_low"></span> This is the color for the low-heating time.</p>
+            <p><span class="circle circle_medium"></span> This is the color for the medium-heating time.</p>
+            <p><span class="circle circle_high"></span> This is the color for the high-heating time.</p>
+        </div>
+    </div>
+
+
+    <div class="table-responsive">
+        <table class="table table-striped table-sm">
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</main>

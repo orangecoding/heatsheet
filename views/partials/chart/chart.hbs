@@ -1,0 +1,46 @@
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">{{viewName}}</h1>
+
+        <div>
+            <div class="input-group daterange">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Date-range</span>
+                </div>
+                <input type="text" name="daterange" id="datepicker" class="form-control">
+            </div>
+            <div class="mt-1">
+                <select name="granularity" id="granularity" size="1" class="form-control">
+                    <option value="daily">Granularity: Daily</option>
+                    <option value="hourly">Granularity: Hourly</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <button type="button" class="btn btn-outline-dark btn-sm" id="help">
+            What do I see here?
+        </button>
+    </p>
+    <div class="collapse mb-3" id="explanation">
+        <div class="card card-body">
+            <p><b>What do I see here?</b></p>
+            <p>Each Chart shows information for 1 Tado thermostat.</p>
+            <p>* <b>The temperature</b> is an average of the day/hour, depending on the granularity you've
+                selected.</p>
+            <p>* <b>The heating modes</b> are showing your the minutes (total) in which the thermostat was
+                either in away mode, if it was off or on. (The stacked chart is off by default as this is a lot
+                of data. you can turn it on by clicking on the legend).</p>
+            <p>* <b>The heating times</b> are showing your the minutes (total) in which the thermostat was
+                either heating at high level (max to reach the target temperature), in medium or low level. This
+                helps you to determine the heating behaviour.</p>
+        </div>
+    </div>
+
+
+    <div class="container" id="chartSection">
+
+    </div>
+</main>
+

@@ -1,0 +1,59 @@
+{
+  "name": "heatsheet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christian Kellner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orangecoding/heatsheet.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write lib/**/*.js test/**/*.js *.js --single-quote --print-width 120",
+    "test": "mocha --timeout 15000 test/**/*.test.js",
+    "integrationTests": "mocha --timeout 15000 test/**/*.integration.js",
+    "lint": "eslint ./index.js ./lib/**/*.js ./test/**/*.js"
+  },
+  "engines": {
+    "node": ">=12.6.0",
+    "npm": ">=6.13.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint ./index.js ./lib/**/*.js ./test/**/*.js",
+      "prettier --single-quote --print-width 120 --write"
+    ]
+  },
+  "keywords": [
+    "tado",
+    "heat",
+    "thermostat",
+    "heatsheet"
+  ],
+  "dependencies": {
+    "basic-auth": "2.0.1",
+    "body-parser": "1.19.0",
+    "chalk": "4.0.0",
+    "express": "4.17.1",
+    "express-hbs": "2.3.3",
+    "lowdb": "1.0.0",
+    "moment": "2.25.3",
+    "node-tado-client": "0.8.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "chai": "4.2.0",
+    "eslint": "7.0.0",
+    "eslint-config-prettier": "6.11.0",
+    "husky": "^4.2.5",
+    "lint-staged": "10.2.2",
+    "mocha": "7.1.2",
+    "prettier": "2.0.5"
+  }
+}
