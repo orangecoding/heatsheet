@@ -1,4 +1,6 @@
 # HeatSheet  
+
+A metrics overview for your Tado data.  [![Build Status](https://travis-ci.org/orangecoding/heatsheet.svg?branch=master)](https://travis-ci.org/orangecoding/heatsheet)
   
 [Tado thermostats](https://www.tado.com/de-en/products/smart-radiator-starter-kit) are an easy and comfortable way to turn any heater into a smart-heater. We're using them throughout our apartment to not worry about heating.  
 However as good as the hardware is, the software (still) lacks the ability to export data and show them on a yearly basis (or showing bigger timewindows than just a single day).  
