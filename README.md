@@ -4,9 +4,9 @@ An overview for your Tado data.  [![Build Status](https://travis-ci.org/orangeco
   
 [Tado thermostats](https://www.tado.com/de-en/products/smart-radiator-starter-kit) are an easy and comfortable way to turn any heater into a smart-heater. We're using them throughout our apartment to not worry about heating.  
 
-However as good as the hardware is, the software (still) lacks the ability to export data and show them on a yearly basis (or showing bigger timewindows than just a single day). 
+However as good as the hardware is, the software (still) lacks the ability to export data and show them on a yearly basis (or showing bigger time-windows than just a single day). 
   
-HeatSheet is changing this. It uses (unofficial) Tado API's, to get the data out of your account and show them either as a graph or table-view. Depending on the chosen granularity, you can analyse your heating behaviour much better, therefor safe money and maybe.. just maybe save the :earth_africa: by adapting your heating behaviours. 
+HeatSheet is changing this. It uses (unofficial) Tado API's, to get the data out of your account and displays them either as a chart or table view. Depending on the chosen granularity, you can analyse your heating behaviour much better, therefor safe money and maybe.. just maybe save the :earth_africa: by adapting your heating behaviours. 
   
 ![Charts](/docs/chart_1.png "Charts")  
   
