@@ -30,6 +30,10 @@ Influx somewhere and store data there. Give it a try ;)
 
 One note on influxdb, as this is extremely powerful, I'm not storing daily data, but hourly data into the database. You can rollup to hours if you want using the db internal queries.
 
+### Example of Visualization using InfluxDB
+
+![Table](/docs/influx_vis.png "Influx Visualization")
+
 ### Influx Migration
 If you want to import existing metrics into InfluxDB, you can do so by starting `node influxMigration.js`. Make sure you've setup your configuration file correctly.
   
