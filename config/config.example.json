@@ -9,5 +9,14 @@
     "apiPort": "9999",
     "loginNeeded": true
   },
-  "dataRecording": true
+  "storage": {
+    "dataRecording": true,
+    "influxdb": {
+      "enabled": false,
+      "url": "https://someUrl.com:somePort",
+      "token": "someToken",
+      "org": "someOrganization",
+      "bucket": "someBucket"
+    }
+  }
 }
