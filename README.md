@@ -89,5 +89,8 @@ The configuration file is located under ./config.
 ## Security
 Make sure to change the ui user and password within your config.json! You might also want to change the port...
 
+## Deployment with docker-compose
+[see here](https://github.com/throbbingcat/docker-heatsheet)
+
 ## Contribution
 You've decided to contribute? Awesome! Please make sure to run the tests and the formatter before sending a pr. (Best is to use husky's pre-commit. Due to a weird husky issue, the pre-commit is only installed when you run `yarn --force`... 
