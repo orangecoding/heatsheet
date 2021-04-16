@@ -1,0 +1,17 @@
+#HTTP-Auth for the ui
+WEB_USERNAME=
+WEB_PASSWORD=
+
+#your Tado credentials
+TADO_USERNAME=
+TADO_PASSWORD=
+
+#influxdb specific
+INFLUXDB_BUCKET=
+#create long random string for token
+INFLUXDB_TOKEN=
+INFLUXDB_ORG=
+INFLUXDB_USERNAME=
+INFLUXDB_PASSWORD=
+#set to false if you're not using influxdb, otherwise true
+INFLUXDB_ENABLED=

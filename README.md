@@ -90,4 +90,36 @@ The configuration file is located under ./config.
 Make sure to change the ui user and password within your config.json! You might also want to change the port...
 
 ## Contribution
-You've decided to contribute? Awesome! Please make sure to run the tests and the formatter before sending a pr. (Best is to use husky's pre-commit. Due to a weird husky issue, the pre-commit is only installed when you run `yarn --force`... 
+You've decided to contribute? Awesome! Please make sure to run the tests and the formatter before sending a pr. (Best is to use husky's pre-commit. Due to a weird husky issue, the pre-commit is only installed when you run `yarn --force`...
+
+
+## Docker
+
+The following section is a contribution by https://github.com/throbbingcat. Thank you! :heart:
+
+
+### Installation
+
+1. Clone this project
+2. cp `env` to `.env`
+3. Edit `.env` to fit your needs
+5. If you don't want to use InfluxDB comment out the service in `docker-compose.yml`and set `INFLUXDB_ENABLED=false`
+5. `docker-compose build`
+5. `docker-compose pull`
+4. `docker-compose up -d`
+
+If you need to change the HeatSheet settings in `.env` or `docker-compose.yml` you first have to remove the `config.json` from `volumes/app` or you have to edit this file directly. Same with influxDB configuration.
+
+### Upgrade from local installation
+
+Stop containers and copy `db.json` to `volumes/app/config/` and restart
+
+###  Use InfluxDB at a later stage
+
+If you did not use InfluxDB at the start but you want to use it at a later stage after db.json already has data, follow this guide:
+
+1. create the config in `.env` (i.e. set `INFLUXDB_ENABLED=true` and generate the other settings)
+2. `rm volumes/app/config/config.json` or change the settings there
+3. probably best also to remove `volumes/influxdb`
+4. `docker-compose up -d`
+5. `docker-compose exec app node influxMigration.js`

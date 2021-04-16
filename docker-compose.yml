@@ -1,0 +1,48 @@
+version: "3"
+
+services:
+
+  # The Node container with heatsheet included
+  app:
+    build:
+      context: app
+    ports:
+      - "9999:9999"
+    restart: unless-stopped
+    volumes:
+      #config.example.json is copied inside this folder
+      - ./volumes/app/config:/app/config:rw
+    environment:
+      #set environment variables in .env
+      #HTTP-Auth for the ui
+      - WEB_USERNAME=${WEB_USERNAME}
+      - WEB_PASSWORD=${WEB_PASSWORD}
+      #your Tado credentials
+      - TADO_USERNAME=${TADO_USERNAME}
+      - TADO_PASSWORD=${TADO_PASSWORD}
+      #influxdb specific
+        #don't change if you're using the container here
+      - INFLUXDB_URL=http://influxdb:8086
+      - INFLUXDB_BUCKET=${INFLUXDB_BUCKET}
+        #create long random string
+      - INFLUXDB_TOKEN=${INFLUXDB_TOKEN}
+      - INFLUXDB_ORG=${INFLUXDB_ORG}
+        #change to false if you're not using influxdb
+      - INFLUXDB_ENABLED=${INFLUXDB_ENABLED}
+
+  #comment this part out if you don't plan to use influxdb (and set INFLUXDB_ENABLED above in app container)
+  influxdb:
+    image: influxdb
+    restart: unless-stopped
+    ports:
+      - "8086:8086"
+    volumes:
+      - ./volumes/influxdb/data:/var/lib/influxdb2
+      - ./volumes/influxdb/config:/etc/influxdb2
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_BUCKET=${INFLUXDB_BUCKET}
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=${INFLUXDB_TOKEN}
+      - DOCKER_INFLUXDB_INIT_ORG=${INFLUXDB_ORG}
+      - DOCKER_INFLUXDB_INIT_USERNAME=${INFLUXDB_USERNAME}
+      - DOCKER_INFLUXDB_INIT_PASSWORD=${INFLUXDB_PASSWORD}
