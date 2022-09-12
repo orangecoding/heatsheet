@@ -37,24 +37,24 @@
     "heatsheet"
   ],
   "dependencies": {
-    "@influxdata/influxdb-client": "1.12.0",
+    "@influxdata/influxdb-client": "1.29.0",
     "basic-auth": "2.0.1",
-    "body-parser": "1.19.0",
-    "chalk": "4.1.1",
-    "express": "4.17.1",
+    "body-parser": "1.20.0",
+    "chalk": "4.1.2",
+    "express": "4.18.1",
     "express-hbs": "2.4.0",
     "lowdb": "1.0.0",
-    "moment": "2.29.1",
-    "node-tado-client": "0.9.3"
+    "moment": "2.29.4",
+    "node-tado-client": "0.10.0"
   },
   "devDependencies": {
     "babel-eslint": "10.1.0",
-    "chai": "4.3.4",
+    "chai": "4.3.6",
     "eslint": "7.25.0",
     "eslint-config-prettier": "7.2.0",
     "husky": "4.3.6",
     "lint-staged": "10.5.4",
-    "mocha": "8.3.2",
-    "prettier": "2.2.1"
+    "mocha": "10.0.0",
+    "prettier": "2.7.1"
   }
 }
