@@ -11,8 +11,11 @@ HeatSheet is changing this. It uses (unofficial) Tado API's, to get the data out
 ![Charts](/docs/chart_1.png "Charts")  
   
 ![Table](/docs/table_1.png "Table")  
-  
-  
+
+
+> [!WARNING]  
+> Tado has switched its authentication method from Username/Password to a new OAuth flow. Heatsheet V3 now supports this updated flow. On the first launch, you'll see a console prompt requesting authentication. Once completed, Heatsheet will store the refresh token, eliminating the need for further authentication.
+
 ## What do you need?  
 - Tado thermostats (obviously)     
 - NodeJS (min. v12.16)  
@@ -40,11 +43,10 @@ If you want to import existing metrics into InfluxDB, you can do so by starting 
 ## How to use  
 - Clone this repository  
 - go to /config and rename the example config to `config.json`  
-- add your Tado username and password (see configuration settings for more...)  
 - install dependencies by running `yarn` or `npm i`  
 - run HeatSheet by running `yarn run start`  
   
-Assuming your user and password is correct, HeatSheet will automagically detect it has never gotten any data, therefor it will run an initial migration. This might take a while, check the log output of Heatsheet.   
+HeatSheet will automagically detect it has never gotten any data, therefor it will run an initial migration. This might take a while, check the log output of Heatsheet.   
 When it's done, goto `http://localhost:9999`, and enjoy all of your data. The data is stored in a file called `db.json` and obviously never transported to me or anybody else.   
 Heatsheet will collect data on a daily basis, meaning shortly after midnight, it will collect the data for the previous day. If you've added a new thermostat, it will show up the day after automatically.
   
@@ -55,10 +57,8 @@ The configuration file is located under ./config.
 {  
 	//these are the credentials you're using to log into the tado system
 	"tado": { 
-		//this is the username you're using to log into the tado app
-		"tadoUser": "*your tado username*", 
-		//this is the password you're using to log into the tado app		
-		"tadoPassword": "*your tado password*" 
+		//Tado changed to use an oAuth flow. When you start Heatsheet the first time, it will obtain a refresh token that is automatically added in here.
+		"refreshToken": "" 
 	}, 
 	//these are the credentials you're using to log into the heatsheet ui
 	"ui": { 

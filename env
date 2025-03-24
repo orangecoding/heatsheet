@@ -3,8 +3,7 @@ WEB_USERNAME=
 WEB_PASSWORD=
 
 #your Tado credentials
-TADO_USERNAME=
-TADO_PASSWORD=
+TADO_REFRESH_TOKEN=
 
 #influxdb specific
 INFLUXDB_BUCKET=

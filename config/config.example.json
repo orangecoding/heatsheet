@@ -1,7 +1,6 @@
 {
   "tado": {
-    "tadoUser": "*your tado usernane*",
-    "tadoPassword": "*your tado password*"
+    "refreshToken": ""
   },
   "ui": {
     "user": "admin",

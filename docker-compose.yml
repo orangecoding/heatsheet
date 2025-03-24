@@ -18,8 +18,7 @@ services:
       - WEB_USERNAME=${WEB_USERNAME}
       - WEB_PASSWORD=${WEB_PASSWORD}
       #your Tado credentials
-      - TADO_USERNAME=${TADO_USERNAME}
-      - TADO_PASSWORD=${TADO_PASSWORD}
+      - TADO_REFRESH_TOKEN=${TADO_REFRESH_TOKEN}
       #influxdb specific
         #don't change if you're using the container here
       - INFLUXDB_URL=http://influxdb:8086

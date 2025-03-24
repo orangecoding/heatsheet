@@ -7,8 +7,7 @@ if [ ! -f "/app/config/config.json" ]; then
   # Copy default configuration file
   cp /app/config-example/config.example.json /app/config/config.json
   # Substitute some parameters with jq
-  jq '.tado.tadoUser = env.TADO_USERNAME' /app/config/config.json >"/app/config/config.json.tmp" && mv "/app/config/config.json.tmp" "/app/config/config.json"
-  jq '.tado.tadoPassword = env.TADO_PASSWORD' /app/config/config.json >"/app/config/config.json.tmp" && mv "/app/config/config.json.tmp" "/app/config/config.json"
+  jq '.tado.refreshToken = env.TADO_REFRESH_TOKEN' /app/config/config.json >"/app/config/config.json.tmp" && mv "/app/config/config.json.tmp" "/app/config/config.json"
   jq '.ui.user = env.WEB_USERNAME' /app/config/config.json >"/app/config/config.json.tmp" && mv "/app/config/config.json.tmp" "/app/config/config.json"
   jq '.ui.password = env.WEB_PASSWORD' /app/config/config.json >"/app/config/config.json.tmp" && mv "/app/config/config.json.tmp" "/app/config/config.json"
   jq '.storage.influxdb.token = env.INFLUXDB_TOKEN' /app/config/config.json >"/app/config/config.json.tmp" && mv "/app/config/config.json.tmp" "/app/config/config.json"
