@@ -1,6 +1,6 @@
 # HeatSheet  
 
-An overview for your Tado data.  [![Build Status](https://travis-ci.org/orangecoding/heatsheet.svg?branch=master)](https://travis-ci.org/orangecoding/heatsheet)
+An overview for your Tado data. 
   
 [Tado thermostats](https://www.tado.com/de-en/products/smart-radiator-starter-kit) are an easy and comfortable way to turn any heater into a smart-heater. We're using them throughout our apartment to not worry about heating.  
 
